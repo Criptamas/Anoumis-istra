@@ -1,0 +1,172 @@
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 300;
+    font-size: 20px;
+
+}
+
+body {
+    background: linear-gradient(#ead6d6, #9198e5);
+}
+
+.flex__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+
+}
+
+.flex__item {
+    height: 100%;
+}
+
+.flex__container img {
+    border-radius: 60%;
+    border: 1px solid lightcoral;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 500;
+    font-style: oblique;
+    color: crimson;
+    text-shadow: 2px 2px 5px blue;
+}
+
+.paragraph {
+    font-weight: 100;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+
+.flex__item--contacto {
+    font-weight: 100;
+    margin-top: 30px;
+    background: linear-gradient(#b0b3d8, #cf78ef);
+
+
+}
+
+.listadecontacto__li {
+    list-style-type: none;
+
+}
+
+
+.contacto__sub {
+    font-size: 30px;
+    color: rgb(60, 37, 41);
+    border-bottom: #7b7fa9 solid 2px;
+}
+
+.enlaces {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.enlaces__a {
+    text-decoration: none;
+    color: rgba(64, 40, 218, 0.658);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.listadecontacto li {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 700px) {
+
+    * {
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: 600;
+        background-color: rgb(182, 204, 237);
+    }
+
+    .flex__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 100vh;
+
+
+    }
+
+    .figure {
+        background-image: url("guitarra.png");
+    }
+
+    .figure img {
+        box-shadow: 4px 4px rgb(110, 168, 234);
+
+    }
+
+
+    .primer {
+        margin: 20px 20px;
+        align-items: inherit;
+        border-bottom: 1px solid #49e;
+        border-top: 1px solid #49e;
+    }
+
+    .primertema {
+        font-weight: 600;
+        color: #7781ed;
+    }
+
+    .description {
+        color: #d5caaa;
+        text-decoration: double;
+        background-color: rgb(63, 92, 121);
+    }
+
+
+   .h3 {
+        text-align: center;
+        font-size: 40px;
+        color: #48e;
+        height: 50px;
+        border-top: 1px solid rgb(166, 162, 162);
+
+    }
+
+    .listadecontacto__li{
+        color: #48e;
+        margin-bottom: 10px ;
+        text-align: left;
+        
+    }
+    .listadecontacto__li b{
+        color: #4d484f;
+        font-family: cursive;
+        background: none;
+
+    }
+    .flex__item {
+        width: 100%;
+        height: 100%;
+    }
+
+    .flex__item--contacto {
+        border-bottom: 1px solid rgb(47, 52, 57);
+        ;
+
+    }
+
+    .contacto__sub {
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .enlaces__a {
+        position: relative;
+        top: 100px;
+
+    }
+}
